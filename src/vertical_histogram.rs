@@ -8,6 +8,7 @@ pub fn create_vertical_histogram(word_lengths: &[usize], max_length: usize) {
         println!("{formatted_row}");
     }
     println!("{base_row}");
+    println!("<-- word length -->");
 }
 
 fn get_zipped_and_base(max_length: usize, word_lengths: &[usize]) -> (String, Vec<String>) {
